@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.py[co]
 *.sw[po]
 *.bak
@@ -5,3 +6,7 @@
 *~
 .project
 .pydevproject
+=======
+*.pyc
+*.pyo
+>>>>>>> 45ee39daffcc0e220b3ba26bf32a3b9a90eb66f0

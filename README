@@ -20,7 +20,11 @@ Environment Variables
 OpenShift provides several environment variables to reference for ease
 of use.  The following list are some common variables but far from exhaustive:
 
+<<<<<<< HEAD
     os.environ['OPENSHIFT_APP_NAME']  - Application name
+=======
+    os.environ['OPENSHIFT_GEAR_NAME']  - Application name
+>>>>>>> 45ee39daffcc0e220b3ba26bf32a3b9a90eb66f0
     os.environ['OPENSHIFT_GEAR_DIR']   - Application dir
     os.environ['OPENSHIFT_DATA_DIR']  - For persistent storage (between pushes)
     os.environ['OPENSHIFT_TMP_DIR']   - Temp storage (unmodified files deleted after 10 days)

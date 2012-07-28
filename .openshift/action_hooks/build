@@ -2,6 +2,10 @@
 # This is a simple build script and will be executed on your CI system if 
 # available.  Otherwise it will execute while your application is stopped
 # before the deploy step.  This script gets executed directly, so it
+<<<<<<< HEAD
 # could be python, php, ruby, etc.
 
 # Activate VirtualEnv in order to use the correct libraries
+=======
+# could be python, php, ruby, etc.
+>>>>>>> 45ee39daffcc0e220b3ba26bf32a3b9a90eb66f0

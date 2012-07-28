@@ -3,6 +3,7 @@
 # build hook has been run but before the application has been started back
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
+<<<<<<< HEAD
 
 source $OPENSHIFT_GEAR_DIR/virtenv/bin/activate
 
@@ -18,3 +19,5 @@ fi
 
 echo "Executing 'python $OPENSHIFT_REPO_DIR/wsgi/openshift/manage.py collectstatic --noinput'"
 python "$OPENSHIFT_REPO_DIR"wsgi/openshift/manage.py collectstatic --noinput
+=======
+>>>>>>> 45ee39daffcc0e220b3ba26bf32a3b9a90eb66f0
